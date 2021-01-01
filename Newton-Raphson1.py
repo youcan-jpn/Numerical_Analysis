@@ -7,7 +7,7 @@ def f(a, x):
 
 
 a = 2
-ini_val = 1  # 0 < ini_val < 2/a のとき1/aに収束
+ini_val = 0.9  # 0 < ini_val < 2/a のとき1/aに収束
 itr = 50
 xs = [ini_val]
 
@@ -31,6 +31,7 @@ for i in range(itr):
     xs.append(x_new)
 
 xs = np.array(xs)
+print(xs[-1])
 d = np.abs(xs - 1 / a)
 
 seq = np.arange(itr+1)
