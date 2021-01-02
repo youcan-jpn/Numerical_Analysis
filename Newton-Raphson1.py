@@ -3,6 +3,9 @@ import numpy as np
 
 
 def f(a, x):
+    '''
+    x_kからx_{k+1}を求める関数
+    '''
     return x*(2-a*x)
 
 
