@@ -42,7 +42,7 @@ seq = np.arange(itr+1)
 fig2 = plt.figure(figsize=(17, 8))
 
 ax1 = fig2.add_subplot(121)
-ax1.plot(seq, xs, label='$x_k\ (a={})$'.format(a))
+ax1.plot(seq, xs, label=r'$x_k\ (a={})$'.format(a))
 ax1.set_xlabel('iterations(k)')
 ax1.set_ylabel('$x_k$')
 ax1.legend()
