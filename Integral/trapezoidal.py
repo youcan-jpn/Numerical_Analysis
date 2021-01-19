@@ -1,6 +1,6 @@
 import numpy as np
 
-h = 0.01
+h = 0.03
 m = 100 + 10000*h
 x = np.arange(-m, m, h)
 y = np.exp(-x**2)
